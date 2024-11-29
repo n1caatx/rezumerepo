@@ -1,0 +1,56 @@
+.header {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .header ul li a {
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  }
+  
+  .header ul li a:last-child {
+    margin-left: auto;
+  }
+  
+  .cartIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: all ease 0.2s;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header ul {
+      display: none;
+    }
+  }
+  
